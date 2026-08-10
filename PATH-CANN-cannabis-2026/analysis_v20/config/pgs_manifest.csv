@@ -1,0 +1,13 @@
+variable,label,domain
+pgs_addiction_factor,Addiction factor,Addiction / substance use
+pgs_externalizing,Externalizing,Externalizing / impulsivity / self-regulation
+pgs_somatic_factor,Somatic factor,Somatic / physical health
+pgs_smoking_initiation,Smoking initiation,Addiction / substance use
+pgs_cigarettes_per_day,Cigarettes per day,Addiction / substance use
+pgs_problematic_alcohol_use,Problematic alcohol use,Addiction / substance use
+pgs_cud,Cannabis use disorder,Addiction / substance use
+pgs_mania,Mania symptoms,Psychiatric / neurodevelopmental
+pgs_psychosis,Psychosis symptoms,Psychiatric / neurodevelopmental
+pgs_asd,Autism spectrum disorder,Psychiatric / neurodevelopmental
+pgs_adhd,ADHD,Psychiatric / neurodevelopmental
+pgs_depression,Depression,Psychiatric / neurodevelopmental

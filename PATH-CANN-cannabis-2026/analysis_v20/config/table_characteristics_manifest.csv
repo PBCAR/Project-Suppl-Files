@@ -1,0 +1,15 @@
+order,section,variable,label,summary_type,population,event_value,required,scale,notes
+1,Sample,__sample_n__,Participants,n,all,,TRUE,Number of participants,Variable-specific denominators are reported for every subsequent row.
+2,Demographics,age_t1,Age,mean_sd,all,,TRUE,Years,Baseline age used as a model covariate.
+3,Demographics,ethnicity,Race,category,all,,TRUE,0 = White; 1 = other racial group(s),The legacy variable name ethnicity is a White-versus-other race indicator and is reported as race.
+4,Demographics,financial2,Objective income bracket,median_iqr,all,,TRUE,1–9 ordered categories; higher = higher income,Reported descriptively as an ordinal demographic measure.
+5,Genetic covariates,genotyping_batch,Genotyping batch,category_auto,all,,FALSE,Source batch categories,Reported when available; the ten ancestry principal components are adjustment variables and are not tabulated as participant characteristics.
+6,Core cannabis measures,cannabis_ever,Lifetime cannabis use,n_percent,all,1,TRUE,0 = No; 1 = Yes,Percentage is among participants with an observed response.
+7,Core cannabis measures,cannabis_current,Current cannabis use,n_percent,all,1,TRUE,0 = No; 1 = Yes,Past-six-month use at baseline.
+8,Core cannabis measures,cannabis_firstuse,Age at first cannabis use,mean_sd,ever_users,,TRUE,Years,Restricted to participants reporting lifetime cannabis use and an observed age at first use.
+9,Core cannabis measures,cannabis_frequency,Cannabis use frequency category,median_iqr,current_users,,TRUE,1–7 among current users; higher = more frequent use,Restricted to current users because zero denotes non-use in the full sample.
+10,Core cannabis measures,cudit_freq,CUDIT-C,median_iqr,all,,TRUE,0–8; higher = more frequent cannabis use,Confirmed non-users are structurally zero-coded; genuine missingness remains missing.
+11,Core cannabis measures,cudit_sev,CUDIT-P,median_iqr,all,,TRUE,0–24; higher = more cannabis-related problems,Confirmed non-users are structurally zero-coded; genuine missingness remains missing.
+12,Core cannabis measures,mmm_coping,MMM Coping,median_iqr,all,,TRUE,0–20; higher = stronger coping motives,Confirmed non-users are structurally zero-coded; genuine user missingness remains missing.
+13,Legalization-context perceptions,nsduh3,Perceived harm from weekly cannabis use,median_iqr,all,,TRUE,1 = No risk; 2 = Slight risk; 3 = Moderate risk; 4 = Great risk,Study item included to characterize legalization-context perceptions; higher scores indicate greater perceived harm.
+14,Legalization-context perceptions,cannabis_risk,Perceived cannabis risk count,median_iqr,all,,TRUE,0–12 endorsed risk options; higher = more perceived risks,Study item included to characterize legalization-context perceptions.

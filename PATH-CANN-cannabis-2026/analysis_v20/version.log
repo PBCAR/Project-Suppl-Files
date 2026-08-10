@@ -1,0 +1,17 @@
+PATH-CANN analysis_v20
+Created: 2026-08-05
+Source: analysis_v19 (preserved unchanged)
+
+Figure-only revision
+- Changed the Figure 1 facet label from `Effects of cannabis use` to `Effects of cannabis use (current users)`.
+- This label applies to the full domain because all seven cannabis-impact phenotypes and the acute subjective-effects summed score are defined among current users.
+- Retained the explicit `(current users)` suffix on individual MPT rows because the Reinforcing pathology domain also contains expenditure, which uses the all-participant primary definition.
+- No phenotype coding, model, FDR family, PGS-selection rule, table, longitudinal analysis, or other figure was changed.
+- Earlier versions remain unchanged.
+
+In-place v20 refinement (2026-08-05)
+- Removed the five MPT outcomes (`logBreakpoint`, `logIntensity`, `logOmax`, `logPmax`, and `logAlpha`) from `global_fdr_hits_all_vs_users_effects.csv` and its corresponding population-comparison figure.
+- Rationale: MPT outcomes are defined only among current users; their nominal all-participant models use the same non-missing sample, so the two estimates do not constitute an all-participants-versus-users comparison.
+- Updated the figure legend to state this exclusion explicitly.
+- The MPT outcomes remain in Figure 1, the primary baseline PGS screen, multiplicity correction, descriptive tables, and all other applicable outputs.
+- No models, FDR results, PGS-selection rules, or longitudinal analyses were otherwise changed.
